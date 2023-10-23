@@ -1,5 +1,5 @@
 /*font-family: 'Exo 2', sans-serif;
-font-family: 'Poppins', sans-serif;/
+font-family: 'Poppins', sans-serif;/ background: #7c73e6;
 <a href="https://storyset.com/web">Web illustrations by Storyset</a>*/
 p,
 h1,
@@ -44,8 +44,12 @@ a:active {
 }
 .homepage {
   text-align: center;
-  padding: 150px 30px;
-  background: #7c73e6;
+  padding: 100px 30px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(236, 158, 248) 0%,
+    rgb(131, 83, 241) 90.1%
+  );
   position: relative;
 }
 .pic {
